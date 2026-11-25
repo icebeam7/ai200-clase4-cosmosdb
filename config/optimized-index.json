@@ -1,0 +1,32 @@
+{
+  "indexingMode": "consistent",
+  "automatic": true,
+  "includedPaths": [
+    {
+      "path": "/category/?"
+    },
+    {
+      "path": "/published/?"
+    },
+    {
+      "path": "/title/?"
+    }
+  ],
+  "excludedPaths": [
+    {
+      "path": "/*"
+    }
+  ],
+  "compositeIndexes": [
+    [
+      {
+        "path": "/category",
+        "order": "ascending"
+      },
+      {
+        "path": "/published",
+        "order": "descending"
+      }
+    ]
+  ]
+}

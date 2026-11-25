@@ -1,0 +1,5 @@
+azure-cosmos>=4.9,<5
+azure-identity>=1.18,<2
+openai>=1.65,<3
+python-dotenv>=1.0,<2
+pytest>=8,<10

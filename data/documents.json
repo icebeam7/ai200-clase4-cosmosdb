@@ -1,0 +1,98 @@
+[
+  {
+    "id": "doc-01",
+    "tenant": "training",
+    "category": "rag",
+    "title": "RAG con Cosmos DB",
+    "content": "Un sistema RAG recupera fragmentos relevantes y los proporciona como contexto a un modelo generativo para responder preguntas con información propia.",
+    "published": "2026-10-01"
+  },
+  {
+    "id": "doc-02",
+    "tenant": "training",
+    "category": "database",
+    "title": "Particiones en Cosmos DB",
+    "content": "Una clave de partición bien distribuida facilita el escalado y permite lecturas puntuales de bajo costo cuando se conoce id y partition key.",
+    "published": "2026-10-02"
+  },
+  {
+    "id": "doc-03",
+    "tenant": "training",
+    "category": "performance",
+    "title": "Unidades de solicitud",
+    "content": "Las RU representan el costo normalizado de operaciones de base de datos. Consultas complejas y lecturas entre particiones pueden consumir más RU.",
+    "published": "2026-10-03"
+  },
+  {
+    "id": "doc-04",
+    "tenant": "training",
+    "category": "vector",
+    "title": "Búsqueda semántica",
+    "content": "Las incrustaciones representan textos como vectores numéricos. VectorDistance permite encontrar documentos cercanos semánticamente.",
+    "published": "2026-10-04"
+  },
+  {
+    "id": "doc-05",
+    "tenant": "training",
+    "category": "security",
+    "title": "Identidad administrada",
+    "content": "Las identidades administradas permiten que una aplicación en Azure obtenga tokens de Microsoft Entra ID sin guardar credenciales permanentes.",
+    "published": "2026-10-05"
+  },
+  {
+    "id": "doc-06",
+    "tenant": "training",
+    "category": "database",
+    "title": "Change Feed",
+    "content": "La alimentación de cambios permite detectar nuevas escrituras y actualizaciones. Un procesador administrado usa leases y checkpoints.",
+    "published": "2026-10-06"
+  },
+  {
+    "id": "doc-07",
+    "tenant": "training",
+    "category": "vector",
+    "title": "Índices vectoriales",
+    "content": "Los índices quantizedFlat y diskANN aceleran búsquedas vectoriales. La elección depende del volumen de vectores y la precisión requerida.",
+    "published": "2026-10-07"
+  },
+  {
+    "id": "doc-08",
+    "tenant": "training",
+    "category": "performance",
+    "title": "Índices compuestos",
+    "content": "Un índice compuesto puede ayudar cuando una consulta filtra por una propiedad y ordena por otra. Las mejoras deben medirse en RU.",
+    "published": "2026-10-08"
+  },
+  {
+    "id": "doc-09",
+    "tenant": "training",
+    "category": "rag",
+    "title": "Grounding de respuestas",
+    "content": "La recuperación de conocimiento evita depender exclusivamente del conocimiento paramétrico del modelo, aunque la información recuperada debe validarse.",
+    "published": "2026-10-09"
+  },
+  {
+    "id": "doc-10",
+    "tenant": "training",
+    "category": "security",
+    "title": "Seguridad y datos",
+    "content": "Los documentos para recuperación semántica pueden contener información sensible; se deben controlar permisos y aplicar filtros de autorización.",
+    "published": "2026-10-10"
+  },
+  {
+    "id": "doc-11",
+    "tenant": "training",
+    "category": "database",
+    "title": "Consultas parametrizadas",
+    "content": "Las consultas parametrizadas separan valores del texto SQL y ayudan a evitar errores y riesgos de construir instrucciones mediante concatenación.",
+    "published": "2026-10-11"
+  },
+  {
+    "id": "doc-12",
+    "tenant": "training",
+    "category": "performance",
+    "title": "Coherencia de sesión",
+    "content": "La coherencia Session facilita read-your-writes para una sesión, con compromisos distintos a Strong, Eventual y Consistent Prefix.",
+    "published": "2026-10-12"
+  }
+]
